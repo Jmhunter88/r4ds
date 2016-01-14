@@ -26,7 +26,7 @@ Relations are always defined between a pair of tables. (But that pair might be t
 
 * __Set operations__, which treat observations like they were set elements.
 
-The most common place to find relational data _relational_ database management system, which encompasses almost all modern databases. If you've used a database before, you've almost certainly used SQL. If so, you should find the concepts in this chapter familiar, although their expression in dplyr is little different. Generally, dplyr is a little easier to use than SQL because it's specialised to data analysis: it makes common data analysis operations easier, at the expense of making it difficult to do other things.
+The most common place to find relational data is in _relational_ database management system, which encompasses almost all modern databases. If you've used a database before, you've almost certainly used SQL. If so, you should find the concepts in this chapter familiar, although their expression in dplyr is a little different. Generally, dplyr is a little easier to use than SQL because it's specialised to data analysis: it makes common data analysis operations easier, while making it difficult to do other things.
 
 ## nycflights13 {#nycflights13-relational}
 

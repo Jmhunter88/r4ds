@@ -87,7 +87,7 @@ In simple cases, a single variable is sufficient to identify an observation. For
 
 Each relation (an arrow) matches a primary keys (coloured grey) with the corresponding foreign key (the arrowhead) in another table. 
 
-Relations are implicitly one-to-many. For example, each flight has one plane, but each plane has many flights. In other data, you'll occassionaly see a 1-to-1 relationship. You can think of this as a special case of 1-to-many. It's possible to model many-to-many relations with a many-to-1 relation plus a 1-to-many relation. For example, in this data there's a many-to-many relationship between airlines and airports: each airport flies to many airlines; each airport hosts many airlines. 
+Relations are implicitly one-to-many. For example, each flight has one plane, but each plane has many flights. In other data, you'll occassionaly see a 1-to-1 relationship. You can think of this as a special case of 1-to-many. It's possible to model many-to-many relations with a many-to-1 relation plus a 1-to-many relation. For example, in this data there's a many-to-many relationship between airlines and airports: each airline flies to many airports; each airport hosts many airlines. 
 
 ### Exercises
 
